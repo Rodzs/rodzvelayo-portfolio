@@ -1,0 +1,20 @@
+.text-type {
+  display: inline-block;
+  font-family: inherit;
+}
+
+.text-type__content {
+  display: inline;
+}
+
+.text-type__cursor {
+  display: inline-block;
+  margin-left: 2px;
+  font-weight: 400;
+  opacity: 1;
+  color: currentColor;
+}
+
+.text-type__cursor--hidden {
+  opacity: 0 !important;
+}

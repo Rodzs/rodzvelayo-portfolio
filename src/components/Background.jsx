@@ -17,8 +17,8 @@ function Background() {
       degree: 'Bachelor of Science in Information Technology',
       school: 'University of Cebu - Banilad',
       period: '2022 - 2026',
-      logo: '/images/education/uc-logo.jpg', // Add your UC logo here
-      image: '/images/education/uc-campus.jpg' // Optional campus image
+      logo: '/images/education/uc-logo.jpg', 
+      image: '/images/education/uc-campus.jpg'
     },
     {
       degree: 'Senior High School - TechVoc (ICT)',
@@ -26,43 +26,6 @@ function Background() {
       period: '2020 - 2022',
       logo: '/images/education/uc-logo.jpg',
       image: '/images/education/uc-shs.jpg'
-    }
-  ];
-
-  const experiences = [
-    {
-      title: 'Hacker/Web Developer - HazTrack (Capstone Project)',
-      organization: 'University of Cebu - Banilad Campus',
-      period: '08/2025 - Present',
-      image: '/images/projects/haztrack.png', // Add project screenshot
-      achievements: [
-        'Developed the HazTrack web application using React.js and Node.js',
-        'Architected and implemented backend services using Firebase Functions',
-        'Designed comprehensive mapping service leveraging OpenStreetMap (OSM) data',
-        'Integrated frontend, backend, and geospatial services through well-structured APIs'
-      ]
-    },
-    {
-      title: 'Technical Lead - AlliEats',
-      organization: 'University of Cebu - Banilad Campus',
-      period: '09/2025 - 11/2025',
-      image: '/images/projects/allieats.png',
-      achievements: [
-        'Served as Technical Lead for ASP.NET Core backend development',
-        'Provided technical direction to the team',
-        'Designed and implemented core platform logic'
-      ]
-    },
-    {
-      title: 'Lead Developer - InnoVest',
-      organization: 'University of Cebu - Banilad Campus',
-      period: '02/2025 - 05/2025',
-      image: '/images/projects/innovest.png',
-      achievements: [
-        'Built backend infrastructure using Ktor and MongoDB',
-        'Developed API requests for mobile investment platform',
-        'Implemented core business logic for idea submission workflows'
-      ]
     }
   ];
 
@@ -92,13 +55,12 @@ function Background() {
     ]
   };
 
-  // Easy way to add certificates - just add to this array!
   const certificates = [
     {
       title: 'Alliance Jumpstart Training Program',
       issuer: 'Alliance Software Inc.',
       date: '12/2025',
-      image: '/images/certificates/alliance-cert.jpg' // Add your certificate image
+      image: '/images/certificates/alliance-cert.jpg' 
     },
     {
       title: 'Hack4Gov 2024 Region 7',
@@ -113,7 +75,7 @@ function Background() {
       image: '/images/certificates/deans-lister.jpg'
     },
     {
-      title: 'ICT Congress Quiz Competition',
+      title: 'ICT Congress Java Quiz Competition',
       issuer: 'University of Cebu',
       date: '05/2023',
       image: '/images/certificates/quiz-competition.jpg'

@@ -45,7 +45,7 @@ function Projects() {
     {
       title: 'Innovest',
       period: '02/2025 - 05/2025',
-      description: 'Mobile-first investment platform democratizing access to financial markets. Provides portfolio analytics and AI-driven investment insights for beginner investors.',
+      description: 'An investment platform connecting innovators with investors. IT graduates and professionals can post their project ideas and startup concepts, while investors can discover promising opportunities and connect directly with innovators to fund their ventures.',
       technologies: ['Kotlin', 'Ktor', 'MongoDB'],
       image: '/images/projects/innovest.png',
       github: 'https://github.com/shanedesal/android_app_gradlaunch',

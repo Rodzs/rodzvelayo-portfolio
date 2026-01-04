@@ -29,31 +29,23 @@ function Background() {
     }
   ];
 
-  const skills = {
-    languages: [
-      { name: 'C', level: 75 },
-      { name: 'Java', level: 85 },
-      { name: 'C#', level: 80 },
-      { name: 'JavaScript', level: 90 },
-      { name: 'Kotlin', level: 70 },
-      { name: 'Python', level: 75 }
-    ],
-    frontend: [
-      { name: 'React.JS', level: 85 },
-      { name: 'Bootstrap', level: 80 },
-      { name: 'HTML/CSS', level: 90 }
-    ],
-    backend: [
-      { name: 'Firebase', level: 80 },
-      { name: 'Node.JS', level: 85 },
-      { name: 'ASP.NET Core', level: 75 }
-    ],
-    databases: [
-      { name: 'MySQL', level: 80 },
-      { name: 'MSSQL', level: 75 },
-      { name: 'MongoDB', level: 70 }
-    ]
-  };
+  const technicalSkills = [
+    { 
+      name: 'Programming Languages', 
+      level: 80, 
+      skills: ['Java', 'C#', 'JavaScript', 'Kotlin', 'PHP'] 
+    },
+    { 
+      name: 'Web Development', 
+      level: 88, 
+      skills: ['React.js', 'Node.js', 'ASP.NET Core', 'HTML/CSS'] 
+    },
+    { 
+      name: 'Databases & Cloud', 
+      level: 80, 
+      skills: ['MySQL', 'SQL Server', 'MongoDB', 'Firebase'] 
+    }
+  ];
 
   const certificates = [
     {
@@ -145,7 +137,7 @@ function Background() {
 
             {activeTab === 'skills' && (
               <div className="skills-list-container">
-                {softSkills.map((skillCategory, index) => (
+                {technicalSkills.map((skillCategory, index) => (
                   <div key={index} className="skill-category">
                     <div className="skill-header">
                       <h4 className="skill-category-name">{skillCategory.name}</h4>
